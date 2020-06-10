@@ -1,0 +1,114 @@
+<!PIXEL GEEK REJECTION TASK>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React Task2 Rejection </title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+	<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/babel">
+      const Body = () => (
+        <div className="box" style={{ height: "800px",width: "1500px",backgroundColor: "#5D6D7E",}}></div>
+      );
+      const Header = () => (
+        <div
+          className="orange"
+          style={{ 
+		    height: "250px",
+            width: "700px",
+            backgroundColor: "#F1880A",
+            marginTop: "-800px",
+          }}
+        ></div>
+      );
+      const Footer = () => (
+        <div
+          className="white"
+          style={{
+            height: "650px",
+            width: "990px",
+            backgroundColor: "white",
+            marginLeft: "100px",
+            marginTop: "35px",
+          }}
+        ></div>
+      );
+	  
+      const App = () => {
+        return (
+          <div>
+            <Body />
+            <Header />
+           
+            <h4 style={{ marginLeft: "10px", marginTop: "-250px", color: "white", fontFamily: "Sans-serif", fontWeight: "bold", fontSize: "17px",}}>
+			<h4 style={{ marginLeft: "5px", marginTop: "10px", color: "white", fontFamily: "Sans-serif",wordSpacing: "3px"}}><b>PIXEL GEEK</b></h4>
+			<h5 style={{ marginLeft: "160px",marginTop: "0px",color: "white",fontFamily: "Sans-serif",fontWeight: "bold",wordSpacing: "30px"}}>
+			VIDEOS RAMBLES PROJECTS THE_OVERFLOW
+            </h5>
+            </h4>
+            <Footer />
+            <h1 style={{ color: "#F1880A",marginLeft: "15%",marginTop: "-630px",fontSize: "45px",fontFamily: "Sans-serif",fontWeight: "bold",}}>
+              Rejection is hard
+            </h1>
+            <h5 style={{ marginLeft: "15%",marginTop: "50px",color: "#A4A29F",fontFamily: "Sans-serif",fontSize: "12px",fontWeight: "bold",}}>
+              FEBRUARY 12, 2019
+            </h5>
+            <h5 style={{ marginLeft: "15%",marginTop: "25px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              We are taught rejection at an early age when we want to do
+            </h5>
+            <h5 style={{marginLeft: "15%",marginTop: "10px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              something or get something and our parents say "no".
+            </h5>
+            <h5 style={{marginLeft: "15%",marginTop: "20px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              Rejection also happens when:
+            </h5>
+            <li style={{ marginLeft: "17%",marginTop: "20px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              we are aiming for a certain grade in school and we don't get it.
+            </li>
+            <li style={{ marginLeft: "17%",marginTop: "20px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              you want a boyfriend or girlfriend and he/she says "no. I don't
+              like
+            </li>
+            <h5 style={{marginLeft: "15%",marginTop: "10px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              you in that way."
+            </h5>
+            <li style={{ marginLeft: "17%",marginTop: "20px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              you go through an interview process for a job and you don't get
+            </li>
+            <h5 style={{marginLeft: "15%",marginTop: "10px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              the position.
+            </h5>
+            <li style={{ marginLeft: "17%",marginTop: "20px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              when you work so hard to get a client and your proposal gets
+            </li>
+            <h5 style={{marginLeft: "15%",marginTop: "10px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              rejected.
+            </h5>
+            <h5 style={{marginLeft: "15%",marginTop: "20px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              At the root of it all, we all want something so bad and when life
+              says
+            </h5>
+            <h5 style={{marginLeft: "15%",marginTop: "10px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              no, you can't have it, we get mad and either take it out on
+              someone
+            </h5>
+            <h5 style={{marginLeft: "15%",marginTop: "10px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              else, something else or worse, ourselves.
+            </h5>
+			
+            <h5 style={{marginLeft: "15%",marginTop: "20px",color: "black",fontFamily: "Verdana",fontSize: "16px",}}>
+              Rejection is part of life and its ok to be rejected.
+            </h5>
+          </div>
+        );
+      };
+      ReactDOM.render(<App />, document.getElementById("app"));
+    </script>
+  </body>
+</html>
